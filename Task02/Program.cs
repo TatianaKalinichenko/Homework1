@@ -3,3 +3,16 @@
 // a = 2 b = 10 -> max = 10
 // a = -9 b = -3 -> max = -3
 
+Console.WriteLine("Введите первое целое число:");
+int a = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите второе целое число:");
+int b = Convert.ToInt32(Console.ReadLine());
+
+if (a > b)
+{
+    Console.WriteLine($"{a} больше {b}");
+}
+else
+{
+    Console.WriteLine($"{b} больше {a}");
+}
